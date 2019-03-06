@@ -1,0 +1,60 @@
+/*
+ *  Funding Cirle UI /FE test
+ *  Task 1 
+ *  Author: Jonathan Owen
+*/ 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main_container{
+    padding-top: 15px;
+}
+
+.game_table {
+    margin:auto;
+    width: 600px;
+}
+
+.table_data {
+    width: 550px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.result_score h2{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.player_Avatar {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    vertical-align: text-bottom;
+}
+
+.delete_btn {
+    height: 25px;
+    width: 25px;
+}
+
+.green_dot {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: super
+}
+
+.no_dot {
+    width: 10px;
+    display: inline-block;
+}
