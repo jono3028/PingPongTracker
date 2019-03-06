@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ping Pong Tracker (Task 3)</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="main_container">       
+            <h1>Latest Games</h1>
+            <div id="score_table"></div>
+        </section>    
+        <section id="add_game_container">
+            <h1>Add Game</h1>
+            <form id="add_game_form" action="">
+                <datalist id="playerList"></datalist>
+                <div class="add_game_input">
+                    <input type="text" name="player1" id="inputPlayer1" placeholder="Look for Player" required list="playerList">
+                    <span>vs</span>
+                    <input type="text" name="player2" id="inputPlayer2" placeholder="Look for Player" required list="playerList">
+                </div>
+                <input class="add_game_submit" type="button" value="Add game" onclick="AddGame(this.form)"> 
+            </form>
+        </section>
+        <script src="script.js"></script>
+        <script src="addGame.js"></script>
+    </body>
+</html>
