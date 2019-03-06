@@ -1,0 +1,63 @@
+/*  Funding Cirle UI /FE test
+ *  Task 2
+ *  Author: Jonathan Owen 
+ */
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+#main_container {
+  padding-top: 10px; }
+  #main_container h1 {
+    text-align: center; }
+  #main_container #game_table {
+    margin: auto;
+    width: 600px; }
+  #main_container .table_data {
+    width: 550px;
+    padding: 10px 0px;
+    text-align: center; }
+  #main_container .result_score h2 {
+    display: inline;
+    padding: 0px 10px; }
+  #main_container .player_Avatar {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    vertical-align: text-bottom; }
+  #main_container .delete_btn {
+    height: 25px;
+    width: 25px; }
+  #main_container .no_dot, #main_container .green_dot {
+    width: 10px;
+    display: inline-block; }
+  #main_container .green_dot {
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    vertical-align: super; }
+
+#add_game_container {
+  padding-top: 10px; }
+  #add_game_container h1, #add_game_container #add_game_form {
+    text-align: center; }
+  #add_game_container .add_game_input {
+    font-size: 1.5em; }
+    #add_game_container .add_game_input select {
+      margin: 10px;
+      background-color: white;
+      border: 1px solid black;
+      height: 30px;
+      width: 200px; }
+  #add_game_container .add_game_submit {
+    margin: 10px;
+    background-color: #1c75bc;
+    color: white;
+    border: 1px solid #1c75bc;
+    height: 30px;
+    width: 100px; }
+    #add_game_container .add_game_submit:hover {
+      border: 1px solid #134f80;
+      background: #134f80; }
+
+/*# sourceMappingURL=style.css.map */

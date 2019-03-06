@@ -1,0 +1,83 @@
+/*
+ *  Funding Cirle UI /FE test
+ *  Task 2
+ *  Author: Jonathan Owen 
+ */ 
+
+$icon-size-square: 25px
+$dot-dimension: 10px
+$default-spacing: 10px
+$form-control-height: 30px
+$form-control-width: 200px
+$blue: #1c75bc
+$blue-hover: #134f80
+
+
+body 
+    font-family: Arial, Helvetica, sans-serif
+
+//Table Section
+#main_container
+    padding-top: $default-spacing    
+    h1
+        text-align: center
+
+    #game_table 
+        margin: auto
+        width: 600px
+
+    .table_data 
+        width: 550px
+        padding: $default-spacing 0px
+        text-align: center
+
+    .result_score h2
+        display: inline
+        padding: 0px $default-spacing
+
+    .player_Avatar
+        height: $icon-size-square
+        width: $icon-size-square
+        border-radius: 50%
+        margin: 0px $default-spacing
+        vertical-align: text-bottom
+
+    .delete_btn
+        height: $icon-size-square
+        width: $icon-size-square
+
+    .no_dot, .green_dot
+        width: $dot-dimension
+        display: inline-block
+
+    .green_dot
+        height: $dot-dimension
+        background-color: green
+        border-radius: 50%
+        vertical-align: super
+
+// Form Section
+
+#add_game_container
+    padding-top: $default-spacing    
+    h1, #add_game_form
+        text-align: center
+    .add_game_input
+        font-size: 1.5em
+        select
+            margin: $default-spacing
+            background-color: white
+            border: 1px solid black
+            height: $form-control-height
+            width: $form-control-width  
+            
+    .add_game_submit
+        margin: $default-spacing
+        background-color: $blue
+        color: white
+        border: 1px solid $blue
+        height: $form-control-height
+        width: $form-control-width / 2
+        &:hover
+            border: 1px solid $blue-hover
+            background: $blue-hover
